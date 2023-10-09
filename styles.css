@@ -1,0 +1,227 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+main{
+    display: flex;
+    width: 98%;
+    height: auto;
+    align-items: center;
+    flex-direction: column;
+}
+header{
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+    letter-spacing: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 1px 2px 4px #fff;
+    padding: 2%;
+}
+nav{
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.batman{
+    display: flex;
+    width: 26%;
+    height: 520px;
+    justify-content: center;
+    padding-bottom: 2%;
+}
+.superman{
+    display: flex;
+    width: 39%;
+    height: 320px;
+    justify-content: center;
+}
+.wonder_woman{
+    display: flex;
+    width: 34%;
+    height: 340px;
+    justify-content: center;
+}
+.batman_img{
+    width: 327.8px;
+    height: 486px;
+    border-radius: 20px;
+}
+.superman_img{
+    width: 496px;
+    height: 279.6px;
+    border-radius: 20px;
+}
+.wonder_img{
+    width: 429px;
+    height: 302.5px;
+    border-radius: 20px;
+}
+.batman figure{
+    position: relative;
+    box-shadow: 0px 15px, 25px rgba (0, 0, 0, 0.5);
+}
+.batman figure img{
+    transition: all 500ms ease-out;
+}
+.batman figure .capa{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255,255,255,0.8);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+    border-radius: 20px;
+}
+.batman figure:hover .capa{
+    opacity: 1;
+    visibility: visible;
+}
+.superman figure{
+    position: relative;
+    box-shadow: 0px 15px, 25px rgba (0, 0, 0, 0.5);
+}
+.superman figure img{
+    transition: all 500ms ease-out;
+}
+.superman figure .capa{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255,255,255,0.8);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+    border-radius: 20px;
+}
+.superman figure:hover .capa{
+    opacity: 1;
+    visibility: visible;
+}
+.wonder_woman figure{
+    position: relative;
+    box-shadow: 0px 15px, 25px rgba (0, 0, 0, 0.5);
+}
+.wonder_img figure img{
+    transition: all 500ms ease-out;
+}
+.wonder_woman figure .capa{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255,255,255,0.8);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+    border-radius: 20px;
+}
+.wonder_woman figure:hover .capa{
+    opacity: 1;
+    visibility: visible;
+}
+.superman figure:hover .capa h2{
+    margin-top: 20%;
+    margin-bottom: 5%;
+}
+.superman figure:hover > img{
+    transform: scale(0.9);
+}
+.superman figure .capa h2{
+    font-weight: bolder;
+    letter-spacing: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 1px 2px 8px #000;
+    margin-bottom: 30%;
+    transition: all 500ms ease-out;
+}
+.superman figure .capa p{
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+    font-weight: bolder;
+    margin: auto;
+    padding: 1%;
+}
+.batman figure:hover .capa h2{
+    margin-top: 60%;
+    margin-bottom: 5%;
+}
+.batman figure:hover > img{
+    transform: scale(0.9);
+}
+.batman figure .capa h2{
+    font-weight: bolder;
+    letter-spacing: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 1px 2px 8px #000;
+    margin-bottom: 100%;
+    transition: all 500ms ease-out;
+}
+.batman figure .capa p{
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+    font-weight: bolder;
+    margin: auto;
+    padding: 1%;
+}
+.wonder_woman figure:hover .capa h2{
+    margin-top: 25%;
+    margin-bottom: 5%;
+}
+.wonder_woman figure:hover > img{
+    transform: scale(0.9);
+    transition: all 500ms ease-out;
+}
+.wonder_woman figure .capa h2{
+    font-weight: bolder;
+    letter-spacing: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 1px 2px 8px #000;
+    margin-bottom: 40%;
+    transition: all 500ms ease-out;
+}
+.wonder_woman figure .capa p{
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+    font-weight: bolder;
+    margin: auto;
+    padding: 1%;
+}
+figcaption{
+    color: white;
+    letter-spacing: 5px;
+    text-shadow: 1px 2px 8px rgb(255, 255, 255);
+    font-weight: bolder;
+}
+footer{
+    display: flex;
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    justify-content: end;
+    align-items: center;
+    color: #fff;
+    padding: 0%;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}

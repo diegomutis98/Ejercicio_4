@@ -1,0 +1,107 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 98%;
+    height: auto;
+}
+header{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    background-color: black;
+    border-radius: 20px;
+}
+footer{
+    display: flex;
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    justify-content: end;
+    align-items: center;
+    color: white;
+    padding: 0%;
+    margin-bottom: 20px;
+    background-color: black;
+}
+.linea{
+    width: 100%;
+    height: 3px;
+    background-color: black;
+    margin-bottom: 20px;
+    padding-top: 1px
+}
+.contenedor1{
+    display: flex;
+    width: 100%;
+    height: auto;
+    padding-bottom: 5%;
+}
+nav{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    width: 30%;
+    height: auto;
+    background-color: black;
+    border-radius: 50px;
+}
+.imagenes{
+    display: flex;
+    width: 70%;
+    height: auto;
+}
+ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5%;
+}
+ul li{
+    width: 200px;
+}
+img{
+    width: 100%;
+    border-radius: 20px;
+}
+figure{
+    padding: 5px;
+    margin: 0%;
+}
+ul li figure img:hover{
+    transform: scale(2);
+}
+h1, h2{
+    color: white;
+    letter-spacing: 5px;
+    text-shadow: 1px 2px 8px rgb(255, 255, 255);
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+figcaption{
+    color: black;
+    letter-spacing: 1px;
+    font-weight: bolder;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    padding-left: 50px;
+}
+p{
+    margin: 20px;
+    margin-bottom: 20px;
+}
